@@ -1,11 +1,23 @@
-import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+import hero from '../public/bg.jpg'
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="bg-container">
-    <h1>Hello world</h1>
+    <div className='mainPage'>
+      <h1>Homepage</h1>
+      <div className='background'>
+      <div className='btn1'>
+        <button>Link</button>
+      </div>
+      <Image
+        src={hero}
+        alt="Picture of the author"
+        
+      />
+      </div>
+      <p>This is the homepage!</p>
     </div>
   )
 }
+export default Home
