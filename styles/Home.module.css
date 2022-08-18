@@ -1,10 +1,82 @@
-.mainPage {
+
+.narbar1{
   position: relative;
 }
-.background {
+.heroImage{
   position: relative;
 }
-.btn1{
+
+.button1{
+  width: 7rem;
+  height: 50px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 0ch;
+  background-color: #2c91ef;
+  margin-left: 15%;
+  margin-top: 5%;
+  position: absolute;
+  
+}
+.animalPage{
+  color: red;
+  text-align: left;
+}
+.container {
+  position: relative;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(27, 163, 241);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container .h12{
+  position: absolute;
+  color: rgb(27, 163, 241);
+  font-size: 5.5rem;
+  text-align: center;
+  top: 10%;
+  left: 40%;
+}
+
+.container .btn:hover {
+  background-color: rgb(0, 83, 131);
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.animalPage {
+  position: relative;
+  
+}
+
+/* Make the image responsive */
+.animalPage img {
+  width: 100%;
+  height: auto;
+  align-items: right;
+  align-content: right;
+}
+.p{
+  position: absolute;
+  color: rgb(27, 163, 241);
+  font-size: 1.5rem;
+  top: 10%;
+  margin-left: 60%;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.animalPage .btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -17,5 +89,8 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
 
+.animalPage .btn:hover {
+  background-color: black;
 }

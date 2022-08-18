@@ -1,22 +1,16 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import hero from '../public/bg.jpg'
+import {Animals} from '../components/Animals'
+import { Navbar } from '../components/Navbar'
+import styles from '../styles/Home.module.css'
 
 const Home = () => {
   return (
     <div className='mainPage'>
-      <h1>Homepage</h1>
-      <div className='background'>
-      <div className='btn1'>
-        <button>Link</button>
-      </div>
-      <Image
-        src={hero}
-        alt="Picture of the author"
-        
-      />
-      </div>
-      <p>This is the homepage!</p>
+      <Navbar/>
+      <Animals />
+      <p>Made by Henok 2022 ©</p>
     </div>
   )
 }
