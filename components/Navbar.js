@@ -15,7 +15,7 @@ export const Navbar = () => {
     <button className={styles.btn}>Telegram</button>
     {/* <h1  className={styles.h12}>Wonder</h1> */}
     <div className={styles.typewriter}>
-        <h1>Wonder</h1>
+        <p>Wonder🌍</p>
     </div>
     </div>
 
