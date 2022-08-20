@@ -141,12 +141,37 @@
 
 
 @media screen and (max-width: 500px) {
-  .typewriter p{
-      width: 100px;
+  .typewriter img{
+      width: auto;
   }
+  .animalPage {
+    width: auto;
+}
 }
 @media screen and (max-width: 900px) {
   .typewriter p{
-      width: 100px;
+      width: auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .animalPage{
+    width: 100%;
+    height: auto;
+  }
+  .typewriter p{
+      margin-left: -50%;
+      font-size: 3rem;
+  }
+  .footer{
+    margin-top: 100%;
+    margin-bottom: 12;
+  }
+}
+@media screen and (max-width: 400px) {
+  .typewriter {
+      width: auto;
+  }
+  .footer{
+    margin-top: 95%;
   }
 }
