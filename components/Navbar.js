@@ -25,6 +25,8 @@ export const Navbar = () => {
     <div className={styles.typewriter}>
         <p>Wonder🌍</p>
     </div>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div className="elfsight-app-e39c2aa2-55e6-4278-ab01-33160169e4bc"></div>
     </div>
 
 

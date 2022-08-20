@@ -26,7 +26,9 @@
 .container {
   position: relative;
   font-family: monospace;
-  ;
+}
+.container img{
+  opacity: 40%;
 }
 
 
