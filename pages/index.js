@@ -10,7 +10,7 @@ const Home = () => {
     <div className='mainPage'>
       <Navbar/>
       <Animals />
-      <p className={styles.footer}>Made by Henok 2022 ©</p>
+      <p className={styles.footer}>Made with ☕️ by Henok 2022 ©</p>
     </div>
   )
 }
