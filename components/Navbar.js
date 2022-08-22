@@ -9,10 +9,10 @@ export const Navbar = () => {
     <h1>Wonder🌍</h1>
     <div className={styles.navbar}>
         <Link href="/">
-            <a>Login</a>
+            <a></a>
         </Link>
         <Link href="/">
-            <a>Sign Up</a>
+            <a></a>
         </Link>
     </div>
     <Image
