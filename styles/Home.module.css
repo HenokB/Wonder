@@ -23,6 +23,12 @@
   color: rgb(0, 0, 0);
   text-align: left;
 }
+.globeImage{
+  margin-top: 3%;
+  margin-left: 45px;
+  width: 270px;
+  height: 220px;
+}
 .container {
   position: relative;
   font-family: monospace;
