@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
-import animal from '../public/animal.jpg'
+import globe from '../public/globe.jpg'
 
 
 export function Animals(){
@@ -16,9 +16,9 @@ export function Animals(){
             pariatur. Excepteur sint occaecat cupidatat non proident, 
             sunt in culpa qui officia deserunt mollit anim id est laborum            </p>
             <Image
-                src={animal}
+                src={globe}
                 alt="a picture of animals" 
-                width={450}
+                width={300}
                 height={250}
             
             />
